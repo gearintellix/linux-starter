@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ -z "$(which brew)" ]; then
+if [ ! -z "$(which brew)" ]; then
 	echo 'brew was installed'
 	exit 0
 fi
